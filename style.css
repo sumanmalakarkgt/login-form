@@ -1,0 +1,81 @@
+.body
+{
+    width: 1320px;
+    height: 800ox;
+    padding-left: 30%;
+    padding-top: 5%;
+    background-color: brown;
+}
+.body .form
+{
+    background:blue;
+    background-blend-mode:screen;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border: 2px groove green;
+    padding-top: 5%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+.body .form input[type=text]
+{
+    color:gray;
+    padding: 5px;
+}
+
+.body .form input[type=email]
+{
+    color:gray;
+    padding: 5px;
+}
+.body .form input[type=password]
+{
+    color:gray;
+    padding: 5px;
+}
+.body .form .button
+{
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.body .details
+{
+    width: 500px;
+    height: 380px;
+    font-size: 20px;
+    padding-top: 10%;
+    color: rgb(12, 75, 54);
+    line-height: 40px;
+    border: 2px solid;
+    text-align: center;
+    background-color:skyblue ;
+}
+.body h1
+{
+    color:crimson;
+    padding-left: 30px;
+}
+.body2
+{
+    width: 1320px;
+    height: 800px;
+    border: 2px solid;
+    background-color: green;
+}
+.body2 .form2
+{
+    width: 1320px;
+    height: 700px;
+    padding-top: 5%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.body2 .form2 h1
+{
+    size: 30px;
+    color: orange;
+
+}

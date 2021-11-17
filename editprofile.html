@@ -1,0 +1,64 @@
+<html>
+    <title>
+        EDIT PROFILE
+    </title>
+    <head> 
+      <link rel="stylesheet" href="style.css">
+      <script>
+         function myfunction(){
+            
+            document.write("ENTRY SAVED SUCCESSFULLY");
+            
+            return false;
+            
+         }
+       </script>
+    </head>
+
+
+    <body class="body2" >
+        <form name="myform" class="form2" onsubmit="myfunction()"> 
+            <h1>ENTER PERSONAL DETAILS:</h1> 
+            <label>ENTER FIRST NAME:</label>
+            <input type="text" name="fname" required><br>
+            <label> ENTER LAST NAME:</label>
+            <input type="text" name="lname" required><br/> 
+            <label>ENTER ENROLL NO:</label>
+            <input type="text" name="id" required><br/> 
+            <label>ENTER YOUR AGE:</label>
+            <input type="number" name="age" required><br/>
+            <label>GENDER:</label>
+            <input type="checkbox" value="MALE" name="male"> <label >MALE</label>
+            <input type="checkbox" value="FMALE" name="female"> <label >FEMALE</label>
+            <input type="checkbox" value="OTHER" name="other"> <label >OTHER</label><br>
+            <label>ENTER ADDRESS:</label> <textarea rows="4" cols="30"></textarea>
+            <hr>
+            <h1>ENTER COLLEGE DETAILS:</h1> 
+            <label>ENTER COLLEGE NAME:</label>
+            <input type="text" name="cname" required><br>
+            <label>ENTER DEPARTMENT NAME:</label>
+            <input type="text" name="Dname" required><br>
+            <label>ENTER CURRENT SEMESTER:</label>
+            <input type="number" name="Sname" required><br>
+            <label>ENTER CURRENT YEAR</label>
+            <input type="number" name="CYname" required><br>
+
+            
+            <hr>
+           
+
+
+        
+            <input type="submit" value="SAVE" >  
+        </form>
+
+        
+
+    </body>
+
+    
+
+
+
+
+</html>

@@ -1,0 +1,52 @@
+<html>
+    <title>
+        Registration Form
+    </title>
+    <head> 
+      <link rel="stylesheet" href="style.css">
+        <script>  
+            function validateform(){  
+  
+            var password=document.myform.password.value;  
+            var cpassword=document.myform.cpassword.value;
+              
+           if (cpassword != password){
+                alert("Password are not same")
+                return false;
+            }
+            else
+            {
+               alert("Registration Completed")
+            }
+            }
+            </script>
+    </head>
+
+
+    <body class="body">
+        
+        <form name="myform" class="form" method="post" action="login.html" onsubmit="return validateform()" > 
+           
+            <label>ENTER FIRST NAME</label><br>
+            <input type="text" name="fname" required><br/>  
+            <label>ENTER LAST NAME</label><br>
+            <input type="text" name="lname" required><br/> 
+            <label>ENTER EMAIL</label><br>
+            <input type="email" name="email" required><br/> 
+           <label>CREATE PASSWORD: </label><br>
+           <input type="password" name="password" required><br/> 
+           <label>CONFIRM PASSWORD: </label><br>
+           <input type="password" name="cpassword" required><br/> <br/>
+            <input type="submit" value="REGISTER">  
+        </form>
+
+        </form>
+
+    </body>
+
+    
+
+
+
+
+</html>

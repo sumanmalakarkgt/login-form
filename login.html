@@ -1,0 +1,55 @@
+<html>
+    
+            <title>
+                LOGIN
+            </title>
+            <head> 
+                <link rel="stylesheet" href="style.css">
+                <script>  
+                    function validateform(){  
+                    var email=document.myform.email.value;
+                    var password=document.myform.password.value;
+                   
+                    if (email!=='sumanmalakar444@gmail.com'){  
+                      alert("Email is not registered");  
+                      return false;  
+                    }
+                    
+                    else if (password !=="abc"){  
+                      alert("PASSWORD DO NOT MATCH");  
+                      return false;  
+                    }
+                    else
+                    {
+                        alert("LOGIN SUCCESSFUL")
+                    }
+                }
+                    </script>
+            </head>
+        
+        
+            <body class="body">
+                <form name="myform" class="form" method="post" action="profile.html" onsubmit="return validateform()" >  
+                
+                    <label>ENTER EMAIL</label><br>
+                    <input type="email" name="email" required><br/> 
+                   <label>ENTER PASSWORD: </label><br>
+                   <input type="password" name="password" required><br/> 
+                    
+                    <input type="submit" value="LOGIN"> 
+                   <a href="forgotpassword.html"> 
+                       <input type="button" value="FORGOT PASSWORD">
+                    </a>
+                    
+                </form>
+        
+                
+        
+            </body>
+        
+    
+
+
+
+
+</html>
